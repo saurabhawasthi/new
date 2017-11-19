@@ -1,0 +1,21 @@
+# new
+#include <iostream>
+   using namespace std;
+   int main()
+   {
+       int n,ld,fd,sum;
+       cout<<"enter number :\n";
+      cin>>n;
+      ld=n%10;
+      int a=n;
+      while(n>10)
+      {
+      n=n/10;
+      fd=n;
+      sum=fd+ld;
+      }
+      cout<<"fd in number "<<a<<" = "<<fd<<endl;
+      cout<<"ld in given number "<<a<<" = "<<ld<<endl;
+      cout<<"sum of fd and ld = "<<sum<<endl;
+    return 0;
+    }
