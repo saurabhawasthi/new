@@ -1,0 +1,18 @@
+# new
+#include <iostream>
+    using namespace std;
+    int main()
+   {
+        int n,di,sum;
+        cout<<"enter number :\n";
+        cin>>n;
+       sum=0;
+       while (n!=0)
+       {
+       di=n%10;
+       sum=di+sum;
+      n=n/10;
+      }
+      cout<<"sum of  digits in any number = "<<sum<<endl;
+      return 0;
+      }
